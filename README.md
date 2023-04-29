@@ -1,5 +1,7 @@
 ![FrostPex Logo](https://raw.githubusercontent.com/FrostNetwork/FrostPex/main/icon.png)
 
+*WORK IN PROGRESS...*
+
 ## Crediti
 Questo plugin è stato sviluppato dagli sviluppatori della [FpDevelopers](https://github.com/FpDevelop)
 
