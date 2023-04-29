@@ -71,7 +71,7 @@ groups:
     prefix: '&l&4[FOUNDER] &r&4'
     color: '&4'
 
-user:
+users:
   275cc100-346c-4d17-aa7c-d0002861695d:
     group: 'owner'
   9ab446d3-133d-4555-85fd-7e5afb1f0805:
