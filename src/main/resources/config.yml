@@ -1,0 +1,78 @@
+# ====================[ FROSTPEX ]====================
+# Version: 1.0
+# Author: NotRealFrancy_
+# Website: https://github.com/FrostNetwork/FrostPex
+# ====================================================
+
+groups:
+  user:
+    name: 'User'
+    default: true
+    prefix: '&7'
+    color: '&7'
+  vip:
+    name: 'VIP'
+    default: false
+    prefix: '&l&a[VIP] &r&a'
+    color: '&a'
+  vipplus:
+    name: 'VIP+'
+    default: false
+    prefix: '&l&a[VIP&2+&a] &r&a'
+    color: '&a'
+  mvp:
+    name: 'MVP'
+    default: false
+    prefix: '&l&b[MVP] &r&b'
+    color: '&b'
+  mvpplus:
+    name: 'MVP+'
+    default: false
+    prefix: '&l&b[MVP&3+&b] &r&b'
+    color: '&b'
+  mvpplusplus:
+    name: 'MVP++'
+    default: false
+    prefix: '&l&6[MVP&2++&6] &r&6'
+    color: '&6'
+  helper:
+    name: 'Helper'
+    default: false
+    prefix: '&l&2[HELPER] &r&2'
+    color: '&2'
+  mod:
+    name: 'Mod'
+    default: false
+    prefix: '&l&3[MOD] &r&3'
+    color: '&3'
+  srmod:
+    name: 'SrMod'
+    default: false
+    prefix: '&l&3[SRMOD] &r&3'
+    color: '&3'
+  admin:
+    name: 'Admin'
+    default: false
+    prefix: '&l&c[ADMIN] &r&c'
+    color: '&c'
+  sradmin:
+    name: 'SrAdmin'
+    default: false
+    prefix: '&l&c[SRADMIN] &r&c'
+    color: '&c'
+  owner:
+    name: 'Owner'
+    default: false
+    prefix: '&l&4[OWNER] &r&4'
+    color: '&4'
+  founder:
+    name: 'Founder'
+    default: false
+    prefix: '&l&4[FOUNDER] &r&4'
+    color: '&4'
+
+user:
+  275cc100-346c-4d17-aa7c-d0002861695d:
+    group: 'owner'
+  9ab446d3-133d-4555-85fd-7e5afb1f0805:
+    group: 'founder'

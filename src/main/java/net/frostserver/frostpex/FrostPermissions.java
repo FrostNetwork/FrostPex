@@ -4,6 +4,7 @@ import com.google.common.eventbus.EventBus;
 import lombok.Getter;
 import net.frostserver.frostpex.event.plugin.base.PluginDisableEvent;
 import net.frostserver.frostpex.event.plugin.base.PluginEnableEvent;
+import net.frostserver.frostpex.manager.GroupsManager;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -13,6 +14,8 @@ public class FrostPermissions extends JavaPlugin {
     @Getter private static FrostPermissions instance;
 
     @Getter private EventBus eventBus;
+
+    @Getter private GroupsManager groupsManager;
 
     @Override
     public void onEnable() {
@@ -27,6 +30,8 @@ public class FrostPermissions extends JavaPlugin {
             FrostPermissions.disable();
             return;
         }
+
+        this.groupsManager = GroupsManager.init();
 
         Bukkit.getConsoleSender().sendMessage(FrostPermissions.getPrefix() + "Plugin abilitato!");
     }
