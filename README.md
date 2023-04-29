@@ -1,4 +1,4 @@
-![FrostPex Logo](https://i.imgur.com/85Biy2b.png)
+![FrostPex Logo](https://raw.githubusercontent.com/FrostNetwork/FrostPex/main/icon.png)
 
 ## Crediti
 Questo plugin è stato sviluppato dagli sviluppatori della [FpDevelopers](https://github.com/FpDevelop)
