@@ -1,0 +1,7 @@
+name: FrostPex
+description: FrostServer's Permission Plugin
+version: 1.0
+api-version: 1.8
+author: NotRealFrancy_
+main: net.frostserver.frostpex.FrostPermissions
+website: https://github.com/FrostNetwork/FrostPex
